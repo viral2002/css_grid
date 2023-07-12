@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    .container{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        max-width: 12000px;
+       align-items: center;
+       
+       gap: 20px;
+       margin-left: 100px;
+       margin-right: 100px;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       
+       
+       
+      
+    
+        
+    }
+    .nav-link{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        justify-content: center;
+    
+    }
+    .link{
+        padding: 10px;
+        align-items: center;
+    }
+    .nav{
+       
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-left: 100px;
+       margin-right: 100px;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       
+        align-content: center;
+        justify-content: space-between;
+        
+        
+    
+    }
+    .nav-img{
+    
+    }
+    .nav-link{
+    
+    }
+    .button-nav{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+    
+    
+    }
+    .button-nav > button {
+        width: 150px;
+        height: 30px;
+        color: #000000;
+        background-color: #41d331;
+        border: hidden 3px ;
+        border-radius: 5px;
+    } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .nav-img > img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .s-2 > img{
+        height:100%;
+        width: 70%;
+    }
+    .s-1{
+    align-items: center;
+    padding: 50px;
+    
+    }
+    .s-1 > button{
+        width: 150px;
+        height: 30px;
+        color: aliceblue;
+        background-color: black;
+    }
+    .s-2{
+    height: 100%;
+    max-height: 90vh;
+    background-color: #ecf312;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover{
+        color: #00ee7f;
+    }
+    
+    .main-features{
+        background-color: #862B0D;
+        margin-left: 100px;
+       margin-right: 100px;
+       margin-top: 5px;
+       margin-bottom: 0px;
+        max-width: 1500px;
+        
+        display: grid;
+        padding-top: 10px;
+        grid-template-columns:repeat(3 ,1fr) ;
+        grid-template-rows: auto auto auto;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+        height: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .sub-sec{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px 50px;
+        
+        
+    }
+    .sub-sec > img {
+        width: 150px;
+    }
+
+    .f-3{
+        margin-top: 40px;
+    }
+    .sub-sec > h1 {
+        color: #f0f8ff;
+    }
+    .sub-sec > p {
+        color:#e74a16 ;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-img">
+        <img      class="logo-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT172r2ETQEFs21g1jy6zVj07YctGghp7DWH152A2E&s" alt="">
+    </div>
+    <div class="nav-link">
+   
+    
+        <a href="#" class="link  home">home</a>
+    <a href="#" class="link  about ">about</a>
+    <a href="#" class="link contacts ">contacts</a>
+</div>
+<div class="button-nav">
+
+
+    <button> Login</button>
+</div>
+
+    </div>
+    <div class="container">
+
+        <div class="item s-1"><h1>Helthy Food</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint odio tenetur praesentium deserunt quidem, tempora reiciendis repudiandae. Minus vero corporis odit alias possimus nihil eos, eaque ipsum labore cum. Minus, blanditiis explicabo non, nemo, cum in aut autem labore ipsum suscipit reiciendis eos. Praesentium quo sint provident voluptatem iure!</p>
+        <button>Read more</button>
+    </div>
+        
+           
+        
+        
+        <div class="item s-2"><img src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="Healthy Food"></div>
+       
+    </div>
+    <div class="main-features">
+        <div  class="sub-sec  f-1">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="Sub Section1">
+       <h1>No Minimum order</h1>
+      
+      <p>
+        Order in for yourself or for the group, with no restrictions on order
+        value
+      </p>
+       
+       
+        </div>
+        <div class="sub-sec  f-2">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="Sub Section2">
+           <h1> Live Order Tracking</h1>
+            <p>
+                Know where your order is at all times, from the restaurant to your
+                doorstep
+              </p>
+        
+        </div>
+        <div class="sub-sec  f-3">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="Sub Section3">
+            <h1> Lighting-Fast Delivery</h1>
+            <p>
+                Experience Swiggy's superfast delivery for food delivered fresh &amp; on
+                time
+              </p>
+        </div>
+    </div>
+    
+   
+    
+</body>
+</html>

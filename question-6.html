@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .time-table{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: repeat(8,1fr);
+            border: 1px dotted black;
+            text-align: center;
+            background-color: #1fc4da;
+        }
+        .monday{
+            border: 1px dotted black;
+            text-align: center;
+        }
+        .time{
+            border: 1px dotted black;
+            text-align: center;
+            background-color: #f03d3d;
+        }
+
+        .lab-1{
+            grid-column-start:7 ;
+            grid-column-end: 9;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .lab-2{
+            grid-column-start:2 ;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+           
+        }
+        .lab-3{
+            grid-column-start:7 ;
+            grid-column-end: 9;
+            grid-row-start: 4;
+            grid-row-end: 5;
+           
+        }
+        .lab-4{
+            grid-column-start:2 ;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+           
+        }
+        .lab-5{
+            grid-column-start:7 ;
+            grid-column-end: 9;
+            grid-row-start: 6;
+            grid-row-end: 7;
+           
+        }
+        .lab-6{
+            grid-column-start:2 ;
+            grid-column-end: 4;
+            grid-row-start: 7;
+            grid-row-end: 8;
+           
+        }
+        .lab-7{
+            grid-column-start:7 ;
+            grid-column-end: 9;
+            grid-row-start: 7;
+            grid-row-end: 8;
+           
+        }
+        div{
+            padding: 20px;
+        }
+        .green{
+            background-color: #21e010;
+        }
+        .blue{
+            background-color: #4444f4;
+        }
+        .lab{
+            background-color: #dedbdb;
+        }
+        .orange{
+            background-color: #e8a936;
+        }
+        .hg{
+            background-color: #d0eb3a;
+            border-bottom: #d0eb3a;
+            border-top: #d0eb3a;
+        }
+        .break{
+            border: 1px dotted black;
+        }
+        h1{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>School Timetable</h1>
+    <div class="time-table">
+    <div class="time">TIME</div>
+    <div class="time">08:00 AM - 09:00 AM</div>
+    <div class="time">09:00 AM - 10:00 AM</div>
+    <div class="time">10:00 AM - 11:00 AM</div>
+    <div class="time">11:00 AM - 12:00 PM</div>
+    <div class="time">12:00 PM - 02:00 PM</div>
+    <div class="time">02:00 PM - 03:00 PM
+    </div>
+    <div class="time">03:00 PM - 04:00 PM</div>
+    
+
+    <div class="monday blue">MONDAY</div>     
+   
+    
+    
+    
+    <div class="monday orange">English</div>
+    <div class="monday orange"> Biology</div>
+    <div class="monday orange">Physics</div>
+    <div class="monday orange">Chemistry</div>
+    <div class="monday hg">L</div>
+    <div class="lab-1 lab monday">Chemistry LAB</div>
+    
+
+    <div class="monday blue">TUESDAY</div>
+    <div class="lab-2 lab monday">Biology LAB</div> 
+   
+    
+   
+    <div class="monday orange"> Physics</div>
+    <div class="monday orange">Chemistry</div>
+    <div class="monday hg">U</div>
+    <div class="monday orange">English
+        </div>
+    
+    <div class="monday orange">Biology</div>
+
+    <div class="monday blue">WEdNESDAY</div>     
+    
+    
+    
+    
+    
+    <div class="monday orange">English</div>
+    <div class="monday orange">Biology</div>
+    <div class="monday orange">Physics</div>
+    <div class="monday orange">Chemistry</div>
+    <div class="monday hg">N</div>
+    <div class="lab-3 green monday">Games</div>
+
+
+
+    <div class="monday blue">THURSDAY</div>
+    <div class="lab-4 monday lab">Biology Lab</div>
+    <div class="monday orange">Physics</div>
+    <div class="monday orange">Chemistry</div>
+    <div class="monday hg">C</div>
+    <div class="monday orange">English</div>
+    <div class="monday orange">Biology</div>
+    
+
+    <div class="monday blue">FRIDAY</div>
+    <div class="monday orange">English</div>
+    <div class="monday orange">Biology</div>
+    <div class="monday orange">Physics</div>
+    <div class="monday orange">Chemistry</div>
+    <div class="monday hg">H</div>
+    <div class="lab-5 monday lab">Physics Lab</div>
+    
+    
+    
+    <div class="monday blue">SATURDAY</div>
+    <div class="lab-6 monday lab">Biology LAB</div>
+    <div class="monday orange">Physics</div>
+    <div class="monday orange">Chemistry</div>
+    
+    <div class="monday  break hg">BREAK</div>
+    <div class="lab-7 green monday">LET OFF</div>
+   
+    
+    
+
+</div>
+</body>
+</html>

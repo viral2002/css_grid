@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    .container{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        max-width: 12000px;
+       align-items: center;
+       
+       gap: 20px;
+       padding: 10px;
+       
+       
+       
+      
+    
+        
+    }
+    .nav-link{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        justify-content: center;
+    
+    }
+    .link{
+        padding: 10px;
+        align-items: center;
+    }
+    .nav{
+       
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        align-content: center;
+        justify-content: space-between;
+        
+        
+    
+    }
+    .nav-img{
+    
+    }
+    .nav-link{
+    
+    }
+    .button-nav{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+    
+    
+    }
+    .button-nav > button {
+        width: 150px;
+        height: 30px;
+        color: #000000;
+        background-color: #41d331;
+        border: hidden 3px ;
+        border-radius: 5px;
+    } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .nav-img > img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .s-2 > img{
+        height:100%;
+        width: 70%;
+    }
+    .s-1{
+    align-items: center;
+    padding: 50px;
+    
+    }
+    .s-1 > button{
+        width: 150px;
+        height: 30px;
+        color: aliceblue;
+        background-color: black;
+    }
+    .s-2{
+    height: 100%;
+    max-height: 90vh;
+    background-color: #ecf312;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover{
+        color: #00ee7f;
+    }</style>
+
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-img">
+        <img      class="logo-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT172r2ETQEFs21g1jy6zVj07YctGghp7DWH152A2E&s" alt="">
+    </div>
+    <div class="nav-link">
+   
+    
+        <a href="#" class="link  home">home</a>
+    <a href="#" class="link  about ">about</a>
+    <a href="#" class="link contacts ">contacts</a>
+</div>
+<div class="button-nav">
+
+
+    <button> Login</button>
+</div>
+
+    </div>
+    <div class="container">
+
+        <div class="item s-1"><h1>Helthy Food</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint odio tenetur praesentium deserunt quidem, tempora reiciendis repudiandae. Minus vero corporis odit alias possimus nihil eos, eaque ipsum labore cum. Minus, blanditiis explicabo non, nemo, cum in aut autem labore ipsum suscipit reiciendis eos. Praesentium quo sint provident voluptatem iure!</p>
+        <button>Read more</button>
+    </div>
+        
+           
+        
+        
+        <div class="item s-2"><img src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="Healthy Food"></div>
+       
+    </div>
+    
+   
+    
+</body>
+</html>
